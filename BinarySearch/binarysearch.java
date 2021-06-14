@@ -34,6 +34,7 @@ class binarysearch {
         System.out.println("Enter " + size + " numbers");
         for (int i = 0; i < size; i++)
             arr.add(ob.nextInt());
+        Collections.sort(arr);
         System.out.println("Enter the number you wish to find");
         int to_find = ob.nextInt();
         boolean isPresent = binarysearch(arr, to_find);
