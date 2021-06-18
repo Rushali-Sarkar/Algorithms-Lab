@@ -56,7 +56,7 @@ int main(int argc, char* argv[]) {
         scanf("%d", &current_number);
         arr[i] = current_number;
     }
-    printf("Came here\n");
+    printf("The numbers after sorting are\n");
     arr = quicksort(arr, 0, size - 1);
     print(arr, size);
     return 0;
