@@ -73,6 +73,7 @@ class mergesort {
         Scanner ob = new Scanner(System.in);
         System.out.println("Enter the number of elements you want in the array");
         int size = ob.nextInt();
+        System.out.println("Enter " + size + " elements");
         ArrayList<Integer> arr = new ArrayList<Integer>();
         for (int i = 0; i < size; i++)
             arr.add(ob.nextInt());
@@ -82,4 +83,3 @@ class mergesort {
         return;
     }
 }
-        

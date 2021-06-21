@@ -75,7 +75,7 @@ int main(int argc, char* argv[]) {
     int size;
     printf("Enter the number of elements you want to enter in the array\n");
     scanf("%d", &size);
-    printf("Enter %d elements\n");
+    printf("Enter %d elements\n", size);
     int* arr = malloc(sizeof(int) * size);
     for (int i = 0; i < size; i++) {
         int current_number;
@@ -87,3 +87,5 @@ int main(int argc, char* argv[]) {
     print(arr, size);
     return 0;
 }
+
+

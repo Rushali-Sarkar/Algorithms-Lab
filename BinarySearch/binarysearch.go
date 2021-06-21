@@ -3,7 +3,10 @@ package main
 import "fmt"
 import "sort"
 
-func binarysearch(arr []int, left_index int, right_index int, to_find int) (bool) {
+func binarysearch(arr []int, to_find int) (bool) {
+
+    left_index := 0
+    right_index := len(arr)
 
     for left_index <= right_index {
 
@@ -38,7 +41,7 @@ func main() {
     fmt.Println("Enter the number you want to search for")
     var to_find int
     fmt.Scanln(&to_find)
-    isPresent := binarysearch(arr, 0, size - 1, to_find)
+    isPresent := binarysearch(arr, to_find)
     if isPresent {
         fmt.Println("Yes, the number is present in the list")
     } else {

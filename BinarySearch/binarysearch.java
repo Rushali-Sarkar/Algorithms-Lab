@@ -45,6 +45,4 @@ class binarysearch {
         return;
     }
 }
-
-
     
