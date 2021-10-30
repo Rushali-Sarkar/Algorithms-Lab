@@ -211,6 +211,7 @@ public class Main {
             int empId = sc.nextInt();
             System.out.println("Enter Employee Name");
             String name = sc.nextLine();
+            String name = sc.nextLine();
             System.out.println("Enter House Number");
             String houseNo = sc.nextLine();
             System.out.println("Enter Street Number");
@@ -228,7 +229,7 @@ public class Main {
             System.out.println("Enter District");
             String district = sc.nextLine();
             System.out.println("Enter Pin Code");
-            int pinCode = sc.nextIntLine();
+            int pinCode = sc.nextInt();
             System.out.println("Enter Email");
             String email = sc.nextLine();
             System.out.println("Enter Mobile Number");
