@@ -32,6 +32,7 @@ class BubbleSort {
         ArrayList<Integer> arr = new ArrayList<Integer>();
         for (int i = 0; i < size; i++)
             arr.add(ob.nextInt());
+        ob.close();
         arr = bubblesort(arr);
         System.out.println("The numbers after sorting are");
         print(arr);
